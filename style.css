@@ -47,7 +47,7 @@ body > header > nav > ul {
     color: #efebd6;
     text-decoration: none;
     padding: 12px;
-    border: 2px solid #efebd6;
+    border: 3px solid #efebd6;
     border-radius: 8%;
     -webkit-text-stroke: 0.5px #2E2E2E; /* Adds dark outline */
 }
@@ -103,4 +103,20 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.s1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ca-list > li {
+    margin-bottom: 3vh;
+}
+
+.hs > li {
+    margin-bottom: 2vh;
+}
+
+.int > li {
+    margin-bottom: 2vh;
 }
