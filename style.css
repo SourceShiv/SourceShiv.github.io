@@ -4,15 +4,27 @@
 
 @media (max-width: 768px) {
     :root {
-        font-size: 14px; /* Adjust for tablets and mobile devices */
+        font-size: 8px; /* Adjust for tablets and mobile devices */
     }
+
 }
 
 @media (max-width: 480px) {
     :root {
-        font-size: 12px; /* Further adjust for smaller mobile screens */
+        font-size: 7px; /* Further adjust for smaller mobile screens */
     }
+    #nav-ul > li {
+    display: none;
+    }
+    #logo {
+        width:100% !important;
+    }
+    }
+
+* {
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0rem;
@@ -52,10 +64,12 @@ body > header > nav > ul {
 
 #nav-ul {
     display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
 }
 #nav-ul > li {
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0.8rem;
 }
 
 .navbutton {
@@ -65,10 +79,11 @@ body > header > nav > ul {
     border: 0.1875rem solid #efebd6;
     border-radius: 8%;
     -webkit-text-stroke: 0.03125rem #2E2E2E; /* Adds dark outline */
+    white-space: nowrap; /* Prevents line breaks within buttons */
 }
 
 body > main article {
-    width: 70%;
+    width: 80%;
     margin: auto
 }
 
@@ -78,7 +93,7 @@ body > main article {
 }
 
 #main-content > div {
-    width: 80%;
+    width: 90%;
 }
 
 h2 {
