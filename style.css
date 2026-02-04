@@ -150,8 +150,8 @@ body > footer {
     text-align: center; 
 }
 .pho img {
-    width: 25rem;
-    height: 26.875rem;
+    width: 15rem;
+    height: 16.875rem;
     border-radius: 50%;
 }
 
@@ -195,7 +195,20 @@ body > footer {
     color: #D44638; 
     font-size: 3rem;
 }
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0366d6; /* nice blue button */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
 
+.download-btn:hover {
+    background-color: #024e9b; /* darker blue on hover */
+}
 .projectpics1 {
     text-align: center;
 }
